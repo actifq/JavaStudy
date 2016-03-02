@@ -6,7 +6,8 @@ public class q3 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int kor, eng, math, sum, avg;
+		int kor, eng, math,sum;
+		double avg;
 		System.out.println("국어,영어,수학 점수를 입력해주세요");
 
 		kor = sc.nextInt();
