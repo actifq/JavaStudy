@@ -12,14 +12,20 @@ public class q1 {
 		System.out.println("값 입력:");
 		int won=sc.nextInt();
 		
-		System.out.println("10,000원권"+"->"+won/10000);
-		System.out.println("5,000원권"+"->"+won/5000);
+		System.out.println("10,000원권"+"->"+(won%10000));
+		System.out.println("10,000원권"+"->"+((won%10000))%5000);
+		
+		
+		
+		
+		
+		/*System.out.println("5,000원권"+"->"+won/5000);
 		System.out.println("1,000원권"+"->"+won/1000);
-		System.out.println("500원권"+"->"+won/5000);
+		System.out.println("500원권"+"->"+won/500);
 		System.out.println("100원권"+"->"+won/100);
 		System.out.println("50원권"+"->"+won/50);
 		System.out.println("10원권"+"->"+won/10);
-		
+		*/
 		
 		
 		
